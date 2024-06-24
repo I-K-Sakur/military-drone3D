@@ -1,5 +1,23 @@
 {
+  "scopedRegistries": [
+    {
+      "name": "Maps SDK for unity",
+      "url": "https://unity.virtualearth.net/npm/registry",
+      "scopes": [
+        "com.microsoft.maps"
+      ]
+    },
+    {
+      "name": "Cesium",
+      "url": "https://unity.pkg.cesium.com",
+      "scopes": [
+        "com.cesium.unity"
+      ]
+    }
+  ],
   "dependencies": {
+    "com.cesium.unity": "1.10.1",
+    "com.microsoft.maps.unity": "0.11.2",
     "com.unity.collab-proxy": "2.3.1",
     "com.unity.feature.characters-animation": "1.0.0",
     "com.unity.feature.development": "1.0.2",
